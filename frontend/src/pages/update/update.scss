@@ -1,0 +1,29 @@
+.background{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   top:0;
+   align-items: center;
+   justify-content: center;
+    background-color: white;
+}
+
+.updateBooks{
+    border:solid black 2px;
+    padding: 30px;
+    border-radius: 15px;
+    
+   
+}
+.updatebooksform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.updatebooksform>input{
+    padding: 10px;
+    border-radius: 15px;
+}
